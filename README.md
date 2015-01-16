@@ -1,1 +1,1 @@
-See it in action: http://byrkje.land/Fatso
+See it in action: http://byrkje.land/fatso
