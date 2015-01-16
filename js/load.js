@@ -16,7 +16,9 @@ var loadState = {
         game.load.image('burger', 'assets/burger.png');
 
         game.load.image('tileset', 'assets/tileset.png');
-        game.load.tilemap('map', 'lvl/lvl1.json', null, Phaser.Tilemap.TILED_JSON)
+        game.load.tilemap('lvl1', 'lvl/lvl1.json', null, Phaser.Tilemap.TILED_JSON);
+        game.load.tilemap('lvl2', 'lvl/lvl2.json', null, Phaser.Tilemap.TILED_JSON);
+        game.load.tilemap('lvl3', 'lvl/lvl3.json', null, Phaser.Tilemap.TILED_JSON);
 
 	},
 

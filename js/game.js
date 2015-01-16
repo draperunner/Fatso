@@ -4,8 +4,9 @@ var game = new Phaser.Game(800, 600, Phaser.AUTO, 'gameDiv');
 // Our 'global' variable
 game.global = {
 	sound: true,
-	score: 0
-	// Add other global variables
+	score: 0,
+	resets: 0,
+	level: 1
 };
 
 // Define states
